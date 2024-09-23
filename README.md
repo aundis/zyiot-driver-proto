@@ -1,1 +1,1 @@
-# edgex-driver-proto
+# zyiot-driver-proto
