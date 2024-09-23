@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.5.1
 // - protoc             v3.12.4
-// source: driverstorge/driverstorge.proto
+// source: driverstorage/driverstorage.proto
 
 package driverstorage
 
@@ -240,5 +240,5 @@ var DriverStorage_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "driverstorge/driverstorge.proto",
+	Metadata: "driverstorage/driverstorage.proto",
 }
