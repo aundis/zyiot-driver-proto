@@ -1,0 +1,15 @@
+syntax = "proto3";
+package keepalive;
+option go_package = "github.com/aundis/zyiot-driver-proto/keepalive";
+import "google/protobuf/empty.proto";
+
+
+// Ping 响应消息
+message PingResponse {
+    bool success = 1; // 心跳是否成功
+}
+
+// Ping 服务
+service PingService {
+    rpc Ping(google.protobuf.Empty) returns (PingResponse); // 不需要请求参数
+}
